@@ -1,16 +1,7 @@
-# ai_recipe_app
+# Namer App
 
-A new Flutter project.
+This is a cool Flutter project that auto generates random word pairs and combines them in one word.
+You get to find cool names by clicking the next button.
+Should your word pair tickle your fancy, add them to your favourites list
+In the favourites tab you can see a list of word pairs.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

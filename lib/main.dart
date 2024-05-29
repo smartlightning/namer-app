@@ -57,17 +57,21 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     Widget page;
+    String title;
     switch (selectedIndex) {
       case 0:
         page = GeneratorPage();
+        title = 'Namer App';
       case 1:
         page = FavouritesPage();
+        title = 'Favourites';
       default:
         throw UnimplementedError('no widget for $selectedIndex');
     }
 
     return LayoutBuilder(builder: (context, constraints) {
       return Scaffold(
+        appBar: AppBar( title: Text(title),),
         body: Row(
           children: [
             SafeArea(
